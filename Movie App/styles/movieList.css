@@ -1,0 +1,34 @@
+#root{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-left: 5%;
+    background-color: cadetblue;
+}
+article{
+    background-color: bisque;
+    text-align: center;
+    border-radius: 10%;
+}
+ul{
+    margin-top: 0px;
+    margin-left: 5%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 35px;
+    background-color: cadetblue;
+}
+p{
+    font-weight: bold;
+    font-size: 24px;
+}
+#data-prev:hover,#data-next:hover{
+    color: blue;
+}
+.hide{
+    display:none;
+}
+.highlight:hover{
+    color: blue;
+}

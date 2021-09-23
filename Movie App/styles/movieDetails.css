@@ -1,0 +1,44 @@
+body{
+    position: absolute;
+    left:40%;
+    transform: translate(-50%, 0);
+    font-size: 165%;
+    margin-right: 12%;
+}
+#title{
+    font-size: 180%;
+    color: teal;
+}
+.flexContainer {
+    display: flex;
+}
+img{
+    width: 55%;
+    height: auto;
+}
+.star{
+ color: rgba(247, 202, 24, 1);
+}
+#plot,#genre{
+    color: rgb(104,104,104);
+}
+#allRatings{
+    font-size: 68%;
+    color: rgb(104,104,104);
+}
+.imdbFont{
+    font-size: 68%;
+    color: rgb(104,104,104);
+}
+.imdbForwardSlash10Font{
+    font-size: 68%;
+    color: rgb(104,104,104);
+}
+button{
+    width: 124px;
+    height: 30px;
+    font-size: 16px;
+}
+button:hover{
+    background-color:darkseagreen;
+}

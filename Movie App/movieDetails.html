@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="styles/movieDetails.css">
+    <script src="scripts/movieDetails.js" defer></script>
+</head>
+
+<body>
+    <section class='movie'>
+        <article id="title"></article>
+        <section class="flexContainer">
+            <article class="leftSide">
+                <div id="image"></div>
+            </article>
+            <article class="rightSide">
+                <div class="mainRight">All ratings available: <p class="imdbFont">IMDB
+                    <p class="imdbForwardSlash10Font"><span id="imdbRating"></span>/10</p>
+                    </p><span id="allRatings"></span>
+                </div>
+            </article>
+        </section>
+        <div class="mainRating"> <span class="star">&#9733;</span><span id="rating"></span>/10</div>
+        <article> Plot: <span id="plot"></span> </article>
+        <article> Genre: <span id='genre'></span> </article>
+    </section>
+    <section id="crud-command">
+    </section>
+</body>
+
+</html>
