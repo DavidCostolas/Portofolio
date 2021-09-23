@@ -1,0 +1,78 @@
+.confirmation-banner{
+    display: none;
+    justify-content: center;
+    background-color: rgba(102, 204, 153, 0.4);
+    padding: 1% 12%;
+    position: absolute;
+    top: 16%;
+    left: 24%;
+    border-radius: 5%;
+}
+.fa-check-circle{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 85%;
+    color:rgba(63, 195, 128, 1) ;
+}
+.fa-times{
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    left:90%;
+    color:rgba(63, 195, 128, 1) ;
+}
+.msg{
+    padding-left: 0px;
+    color:rgba(63, 195, 128, 1) ;
+    font-size: 25px;
+}
+.ContactForm{
+    position: absolute;
+    display: flex;
+    border: rgb(0, 0, 0) solid 2px;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 1% 2%;
+    top: 26%;
+    left:22%;
+    transform: translate(50% 50%);
+}
+label{
+    display: inline-block;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+button{
+    align-self: flex-end;
+    margin-right: 8%;
+}
+label{
+    align-self: center;
+}
+.gender-title{
+    align-self: flex-start;
+    margin-left: 5%;
+}
+ [type ^="text"]{
+    width: 85%;
+    margin-left: 5%;
+}
+img{
+    width: 50%;
+}
+
+
+.error{
+ border:rgba(185, 29, 24, 0.8)solid 2px;
+}
+
+.success {
+    display: flex;
+}

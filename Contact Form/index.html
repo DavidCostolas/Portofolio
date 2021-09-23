@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="dom.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+    <section class="confirmation-banner">
+        <span class="fas fa-check-circle"></span>
+        <div class="msg">Thank you for contacting us, <span class="banner-name"></span></div> 
+            <span id="bannerhide" class="fas fa-times"></span>
+    </section>
+    <section class="ContactForm">
+        <form action="" class="contact-form" data-contact-form>
+            <input type="text" id="fname" name="fname" placeholder="First Name">
+            <input type="text" id="lname" name="lname" placeholder="Last Name">
+            <label class="gender-title">Gender</label>
+            <label for="genderChoice1">
+                <input type="radio" id="genderM" name="gender" value="M" placeholder="M">
+                M
+            </label>
+            <label for="genderChoice2">
+                <input type="radio" id="genderF" name="gender" value="F">
+                F
+            </label>
+            <textarea type="text" name="message" id="message" cols="40" rows="8" placeholder="You message here..."></textarea>
+            <button type="submit" class="btn contact-button">Submit</button>
+        </form>
+        <img src="https://images.all-free-download.com/images/graphicthumb/beautiful_scenery_04_hd_pictures_166258.jpg" alt="">
+    </section>
+</body>
+</html>
